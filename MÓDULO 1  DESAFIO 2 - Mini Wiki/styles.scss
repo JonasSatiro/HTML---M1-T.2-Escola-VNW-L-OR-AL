@@ -16,11 +16,14 @@ body {
     background-color: $primary-color;
     padding: 1px 0;
 
+
     ul {
+        
+        background-color: #000000;
         list-style: none;
         padding: 0;
         text-align: center;
-
+       
         li {
             display: inline;
             margin: 0 15px;
