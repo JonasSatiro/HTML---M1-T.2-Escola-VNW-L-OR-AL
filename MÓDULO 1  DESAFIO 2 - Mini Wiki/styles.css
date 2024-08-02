@@ -1,3 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d32f2f;
+  color: #160707;
+}
+
+.barraDeCima {
+  background-color: #000000;
+  padding: 1px 0;
+}
+.barraDeCima ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.barraDeCima ul li {
+  display: inline;
+  margin: 0 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.imagem .round-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #160707;
+}
+
+h3 {
+  text-align: center;
+  color: #160707;
+}
+
 p {
-  background-color: red;
+  text-align: center;
+  color: #160707;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+ul li {
+  text-align: center;
+  margin: 5px 0;
+}
+ul li a {
+  color: #160707;
+  text-decoration: none;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: #000000;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }/*# sourceMappingURL=styles.css.map */
