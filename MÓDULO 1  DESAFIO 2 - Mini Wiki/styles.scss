@@ -1,8 +1,8 @@
-$primary-color: #000000;
-$secondary-color: #d32f2f;
+$primary-color: #d1c9c9;
+$secondary-color: #ffffff;
 $text-color: #160707;
 $text-color-light: #160707 ;
-$white-color: white;
+
 
 body {
     font-family: Arial, sans-serif;
@@ -15,11 +15,12 @@ body {
 .barraDeCima {
     background-color: $primary-color;
     padding: 1px 0;
+    border-radius: 0%, 50%;
 
 
     ul {
         
-        background-color: #000000;
+        background-color: $primary-color;
         list-style: none;
         padding: 0;
         text-align: center;
@@ -27,7 +28,7 @@ body {
         li {
             display: inline;
             margin: 0 15px;
-            color: $white-color;
+            color: $text-color;
             cursor: pointer;
         }
     }
@@ -42,7 +43,7 @@ body {
     .round-image {
         width: 150px; 
         height: 150px;
-        border-radius: 50%;
+        border-radius:30%;
         object-fit: cover;
     }
 }
@@ -84,7 +85,7 @@ footer {
     text-align: center;
     padding: 1px;
     background-color: $primary-color;
-    color: $white-color;
+    color: $text-color;
     position: fixed;
     width: 100%;
     bottom: 0;
